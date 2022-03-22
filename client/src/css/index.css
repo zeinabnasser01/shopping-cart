@@ -20,19 +20,6 @@ body {
   grid-template-rows: 50px 1fr 50px;
 }
 
-footer {
-  background-color: royalblue;
-  color: white;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 main {
   grid-area: main;
-}
-
-footer {
-  grid-area: footer;
 }
