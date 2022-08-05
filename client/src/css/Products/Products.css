@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   border: none;
+  padding: 0;
 }
 .product-card .card-header img {
   max-width: 100%;
@@ -33,4 +34,12 @@
 }
 .product-card .card-footer .btn {
   width: 100%;
+}
+
+.modal {
+  display: flex !important;
+}
+.modal img {
+  width: 300px;
+  max-width: 100%;
 }
