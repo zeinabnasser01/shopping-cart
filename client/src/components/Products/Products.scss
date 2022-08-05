@@ -30,8 +30,16 @@
     background-color: unset;
     border: none;
     padding: 0;
-    .btn{
+    .btn {
       width: 100%;
     }
+  }
+}
+
+.modal {
+  display: flex !important;
+  img {
+    width: 300px;
+    max-width: 100%;
   }
 }

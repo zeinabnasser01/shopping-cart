@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "id1",
     "title": "product1",
     "imageUrl":"/images/product1.png",
     "desc": "This is product 1 description",
@@ -8,7 +8,7 @@
     "sizes": ["S","M"]
   },
   {
-    "id": "2",
+    "id": "id2",
     "title": "product2",
     "imageUrl":"/images/product2.png",
     "desc": "This is product 2 description",
@@ -16,7 +16,7 @@
     "sizes": ["XS","M"]
   },
   {
-    "id": "3",
+    "id": "id3",
     "title": "product3",
     "imageUrl":"/images/product3.png",
     "desc": "This is product 3 description",
@@ -24,7 +24,7 @@
     "sizes": ["M","L"]
   },
   {
-    "id": "4",
+    "id": "id4",
     "title": "product4",
     "imageUrl":"/images/product4.png",
     "desc": "This is product 4 description",
