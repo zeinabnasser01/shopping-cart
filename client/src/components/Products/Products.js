@@ -33,7 +33,6 @@ function Products(props) {
           </div>
         </ul>
       ))}
-
       <ProductModal product={product} closeModal={closeModal} />
     </div>
   );
