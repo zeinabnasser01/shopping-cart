@@ -1,4 +1,4 @@
-const gulp = require('gulp');
+var gulp = require('gulp');
 const gulpsass = require('gulp-sass');
 const sass = gulpsass(require('sass'));
 

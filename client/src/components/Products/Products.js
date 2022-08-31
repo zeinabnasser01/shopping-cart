@@ -3,7 +3,7 @@ import '../../css/Products/Products.css';
 import ProductModal from './ProductModal';
 
 function Products(props) {
-  const [product, setProduct] = useState('');
+  const [product, setProduct] = useState(false);
 
   const openModal = (product) => {
     setProduct(product);
@@ -28,7 +28,12 @@ function Products(props) {
               <span className='price'>{product.price}</span>
             </div>
             <div className='card-footer'>
-              <button className='btn btn-primary'>Add to cart</button>
+              <button
+                className='btn btn-primary'
+                onClick={() => props.addToCart(product)}
+              >
+                Add to cart
+              </button>
             </div>
           </div>
         </ul>
