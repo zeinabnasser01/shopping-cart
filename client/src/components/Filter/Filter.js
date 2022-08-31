@@ -1,14 +1,17 @@
 import React from 'react';
 
 function Filter(props) {
-  const { size, handleFilterbysize, sort, handleFilterbysort } = props;
+  const { productsNumber, size, handleFilterbysize, sort, handleFilterbysort } =
+    props;
   return (
     <div className='filter'>
       <ul className='list-group'>
         <li className='list-group-item active' aria-current='true'>
           Filter
         </li>
-        <li className='list-group-item'>Number of products : {} </li>
+        <li className='list-group-item'>
+          Number of products : {productsNumber}
+        </li>
         <li className='list-group-item'>
           <label>Filter</label>
           <select
